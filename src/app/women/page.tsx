@@ -5,12 +5,12 @@ export default function Women() {
   return (
    <>
    <h2 className='text-center text-4xl my-5 font-bold'>WOMEN</h2>
-   <div className='mt-8 flex justify-between'>
+   <div className='mt-8 flex flex-col items-center md:flex-row justify-between '>
    <Link href="/blogs/8">
                     <TShirtProps
                         imgSrc="/images/women-6.jpg"
                         category="WOMEN"
-                        name="T-Shirt Name-10"
+                        name="SMR-TS-008"
                         cost="$33.00 - $36.00"
                         colors={["", "", ""]}
                         size={["", "", "", "", ""]}
@@ -20,7 +20,7 @@ export default function Women() {
                     <TShirtProps
                         imgSrc="/images/women-7.jpg"
                         category="WOMEN"
-                        name="T-Shirt Name-7"
+                        name="SMR-TS-005"
                         cost="$33.00 - $36.00"
                         colors={["", "", ""]}
                         size={["", "", "", "", ""]}
@@ -30,7 +30,7 @@ export default function Women() {
                     <TShirtProps
                         imgSrc="/images/women-1.jpg"
                         category="WOMEN"
-                        name="T-Shirt Name-9"
+                        name="SMR-TS-002"
                         cost="$23.00 - $26.00"
                         colors={["", "", ""]}
                         size={["", "", "", "", ""]}
@@ -40,7 +40,7 @@ export default function Women() {
                     <TShirtProps
                         imgSrc="/images/women-2.jpg"
                         category="WOMEN"
-                        name="T-Shirt Name-7"
+                        name="SMR-TS-004"
                         cost="$33.00 - $36.00"
                         colors={["", "", ""]}
                         size={["", "", "", "", ""]}
